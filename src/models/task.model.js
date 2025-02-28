@@ -12,4 +12,4 @@ const taskSchema = new mongoose.Schema({
   color: { type: String },
 });
 
-export default mongoose.model("Tasks", taskSchema);
+export default mongoose.model("Task", taskSchema);
